@@ -27,7 +27,7 @@ var curry = function(f){
 
 var curriedSum = curry(sum);
 
-console.log(curriedSum()());
+console.log(curriedSum(10)(20));
 //console.log(curriedSum(10, 20));
 
 // Currying Using Closure Part 2
